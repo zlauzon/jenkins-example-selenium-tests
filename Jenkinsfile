@@ -12,6 +12,11 @@ pipeline {
                 sh "chmod +x -R ${env.WORKSPACE}"
                 sh './mvnw clean test'
             }
+            post {
+                always {
+                    junit '**/surefire-reports/*.xml'
+                }
+            }
         }
     }
 }
