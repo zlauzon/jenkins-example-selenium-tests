@@ -4,7 +4,6 @@ pipeline {
         stage('Verify browser are installed') {
             steps {
                 sh 'google-chrome --version'
-                sh 'firefox --version'
             }
         }
         stage('Run Tests') {
