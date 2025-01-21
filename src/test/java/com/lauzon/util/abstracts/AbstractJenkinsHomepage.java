@@ -1,4 +1,4 @@
-package com.lauzon.seleniumtests.abstracts;
+package com.lauzon.util.abstracts;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;

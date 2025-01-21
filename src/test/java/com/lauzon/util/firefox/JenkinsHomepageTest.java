@@ -1,11 +1,11 @@
-package com.lauzon.seleniumtests.firefox;
+package com.lauzon.util.firefox;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 
-import com.lauzon.seleniumtests.abstracts.AbstractJenkinsHomepage;
+import com.lauzon.util.abstracts.AbstractJenkinsHomepage;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
