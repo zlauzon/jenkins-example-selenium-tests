@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent { label 'linux'}
     stages {
         stage('Verify browser are installed') {
             steps {
