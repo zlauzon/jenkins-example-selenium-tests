@@ -8,7 +8,7 @@ import io.cucumber.junit.Cucumber;
 @CucumberOptions(
 		features = "src\\test\\resources\\Features",
 		glue={"com.lauzon.stepDefinition"},
-		publish=true,plugin= {"html:target/cucumber.html","junit:target/cucumber.xml","json:target/cucumber.json"})
+		publish=true,plugin= {"html:target/cucumber.html","junit:target/cucumber.xml","pretty,json:target/cucumber.json"})
 
 public class Runner {
 
