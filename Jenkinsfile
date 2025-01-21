@@ -1,13 +1,6 @@
 pipeline {
     agent any
     stages {
-        stage('Install chrome') {
-            steps {
-                sh 'sudo -s'
-                sh 'wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb'
-                sh 'apt-get install -y ./google-chrome-stable_current_amd64.deb'
-            }
-        }
         stage('Verify browser are installed') {
             steps {
                 sh 'google-chrome --version'
