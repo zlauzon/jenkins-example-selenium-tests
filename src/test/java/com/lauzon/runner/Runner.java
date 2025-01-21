@@ -1,4 +1,4 @@
-package com.lauzon.testCases;
+package com.lauzon.runner;
 
 import org.junit.runner.RunWith;
 import io.cucumber.junit.CucumberOptions;
