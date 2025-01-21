@@ -5,11 +5,11 @@ import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
-import com.lauzon.util.abstracts.AbstractJenkinsHomepage;
+import com.lauzon.util.abstracts.DriverUtilities;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class JenkinsHomepageTest extends AbstractJenkinsHomepage {
+public class ChromeDriverUtilities extends DriverUtilities {
     @BeforeAll
     static void setupClass() {
         WebDriverManager.chromedriver().setup();

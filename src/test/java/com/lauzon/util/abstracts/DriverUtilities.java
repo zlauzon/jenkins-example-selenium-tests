@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
 
-public class AbstractJenkinsHomepage {
+public class DriverUtilities {
     public WebDriver driver;
 
     @AfterEach

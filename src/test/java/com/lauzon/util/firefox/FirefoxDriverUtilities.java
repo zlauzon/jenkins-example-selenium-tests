@@ -5,11 +5,11 @@ import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 
-import com.lauzon.util.abstracts.AbstractJenkinsHomepage;
+import com.lauzon.util.abstracts.DriverUtilities;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class JenkinsHomepageTest extends AbstractJenkinsHomepage {
+public class FirefoxDriverUtilities extends DriverUtilities {
     @BeforeAll
     static void setupClass() {
         WebDriverManager.firefoxdriver().setup();
